@@ -18,7 +18,7 @@
 //       <header className="w-full px-6 py-4 flex justify-between items-center shadow-md fixed top-0 left-0 right-0 bg-white z-50">
 //         <div className="flex items-center gap-2 ">
 //           <img src={Logo} alt="Logo" className="w-12 h-12" />
-//           <h1 className="text-xl font-bold">Craftyy.Housee</h1>
+//           <h1 className="text-xl font-bold">Crafty House</h1>
 //         </div>
 //         <nav className="hidden md:flex gap-6 font-medium">
 //           <a href="#home" className="hover:text-[#A4774D]">Home</a>
@@ -161,7 +161,7 @@ export default function App() {
       <header className="w-full px-6 py-4 flex justify-between items-center shadow-md fixed top-0 left-0 right-0 bg-white z-50">
         <div className="flex items-center gap-2 ">
           <img src={Logo} alt="Logo" className="w-12 h-12" />
-          <h1 className="text-xl font-bold">Craftyy.Housee</h1>
+          <h1 className="text-xl font-bold">Crafty House</h1>
         </div>
         <nav className="hidden md:flex gap-6 font-medium">
           <a href="#home" className="hover:text-[#A4774D]">Home</a>
@@ -314,12 +314,12 @@ export default function App() {
   
   <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-location-dot"></i><span > Banglegudde, Karkala, Udupi District</span></p>
     <a
-    href="https://instagram.com/craftyy_housee"
+    href="https://instagram.com/_crafty.house"
     target="_blank"
     className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"
   >
     <i className="fa-brands fa-instagram text-xl"></i>
-    <span>craftyy.housee</span>
+    <span>crafty house</span>
   </a>
   <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-phone"></i>+91 90361 80631</p>
   <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-envelope"></i> craftyyhousee@gmail.com</p>
