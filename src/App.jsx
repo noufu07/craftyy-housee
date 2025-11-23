@@ -240,8 +240,8 @@ export default function App() {
 
   <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
     {[
-      { name: "Gift Frames", img: "/frames.png" },
-      { name: "Hamper Boxes", img: "/boxes.png" },
+      { name: "Wrapping paper", img: "/item1.png" },
+      { name: "Hamper Boxes", img: "/item2.png" },
       { name: "Gift Bags", img: "/bags.png" },
       { name: "Decor Items", img: "/decor.png" },
     ].map((item, index) => (
@@ -321,7 +321,7 @@ export default function App() {
     <i className="fa-brands fa-instagram text-xl"></i>
     <span>craftyy.housee</span>
   </a>
-  <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+  <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-phone"></i>+91 90361 80631</p>
   <p className="flex items-center gap-2 text-gray-300 hover:text-[#C9A27C] mt-3"><i class="fa-solid fa-envelope"></i> craftyyhousee@gmail.com</p>
 
 
