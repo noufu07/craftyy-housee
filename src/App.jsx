@@ -241,9 +241,9 @@ export default function App() {
   <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
     {[
       { name: "Wrapping paper", img: "/item1.png" },
-      { name: "Hamper Boxes", img: "/item2.png" },
-      { name: "Gift Bags", img: "/bags.png" },
-      { name: "Decor Items", img: "/decor.png" },
+      { name: "Ribbons", img: "/item2.png" },
+      { name: "Gift Bags", img: "/item3.png" },
+      { name: "Frames", img: "/item4.png" },
     ].map((item, index) => (
       <div
         key={index}
@@ -269,7 +269,7 @@ export default function App() {
       <section id="products" className="px-6 md:px-16 py-20">
         <h3 className="text-3xl font-bold text-center mb-10">Popular Hampers</h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
+          {[1, 2, 3,].map((i) => (
             <div key={i} className="bg-white shadow-md rounded-xl p-4 hover:shadow-xl transition">
               <div className="w-full h-48 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-500">
                 <img className="w-full h-full object-contain rounded-lg"  src={`/hamper${i}.png`} 
