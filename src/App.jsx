@@ -227,6 +227,44 @@ export default function App() {
         </div>
       </section>
 
+
+
+{/* CRAFT SUPPLIES SECTION */}
+<section id="supplies" className="px-6 md:px-16 py-20">
+  <h3 className="text-3xl font-bold text-center mb-10">Craft Supplies</h3>
+
+  <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+    We also provide premium materials for making gift hampers — perfect for DIY lovers, 
+    crafters, and shop owners.
+  </p>
+
+  <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    {[
+      { name: "Gift Frames", img: "/frames.png" },
+      { name: "Hamper Boxes", img: "/boxes.png" },
+      { name: "Gift Bags", img: "/bags.png" },
+      { name: "Decor Items", img: "/decor.png" },
+    ].map((item, index) => (
+      <div
+        key={index}
+        className="bg-white shadow-md rounded-xl p-4 hover:shadow-xl transition"
+      >
+        <div className="w-full h-40 bg-gray-200 rounded-lg mb-4 overflow-hidden">
+          <img
+            src={item.img}
+            alt={item.name}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <h4 className="text-xl font-semibold text-center">{item.name}</h4>
+      </div>
+    ))}
+  </div>
+</section>
+
+
+
+
       {/* PRODUCTS SECTION */}
       <section id="products" className="px-6 md:px-16 py-20">
         <h3 className="text-3xl font-bold text-center mb-10">Popular Hampers</h3>
@@ -234,7 +272,9 @@ export default function App() {
           {[1, 2, 3, 4, 5, 6].map((i) => (
             <div key={i} className="bg-white shadow-md rounded-xl p-4 hover:shadow-xl transition">
               <div className="w-full h-48 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-500">
-                Image {i}
+                <img className="w-full h-full object-contain rounded-lg"  src={`/hamper${i}.png`} 
+  alt={`Hamper ${i}`}/>
+                
               </div>
               <h4 className="text-xl font-semibold mb-2">Hamper {i}</h4>
               <p className="text-gray-600 mb-4">Beautiful handcrafted hamper.</p>
