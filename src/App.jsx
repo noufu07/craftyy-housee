@@ -289,12 +289,38 @@ export default function App() {
         </div>
 
         {/* BOTTOM */}
-        <div className="border-t border-gray-800 mt-16 pt-6 text-gray-500 text-sm flex justify-between">
-          <p>© 2025 Craftyy Housee • Portfolio Website</p>
-          <p>Developed by <span className="text-gray-400">Mohamad Nowfal</span><br />
-          </p>
-          
-        </div>
+{/* BOTTOM */}
+<div className="border-t border-gray-800 mt-16 pt-6 text-gray-500 text-sm 
+                flex flex-col md:flex-row items-center md:items-start 
+                justify-between gap-4 text-center md:text-left">
+
+  {/* Left side: copyright */}
+  <p className="text-gray-400">
+    © 2025 Craftyy Housee • Portfolio Website
+  </p>
+
+  {/* Right side: developer details */}
+  <div className="flex flex-col gap-1 text-gray-400">
+    <p>
+      Developed by <span className="text-gray-300 font-medium">Mohamad Nowfal</span>
+    </p>
+
+    <p className="flex items-center justify-center md:justify-start gap-2">
+      <i className="fa-solid fa-phone"></i>
+      +91 7619575961
+    </p>
+
+    <a
+      href="https://www.instagram.com/nowfal__07/"
+      target="_blank"
+      className="flex items-center justify-center md:justify-start gap-2 hover:text-[#C9A27C]"
+    >
+      <i className="fa-brands fa-instagram text-lg"></i>
+      <span>nowfal__07</span>
+    </a>
+  </div>
+</div>
+
       </footer>
     </div>
   );
