@@ -64,8 +64,18 @@ export default function App() {
         </div>
       </section>
 
+<section className="px-6 md:px-16 mt-20 text-center">
+  <h2 className="text-4xl md:text-5xl font-bold text-[#A4774D]">
+    About Us
+  </h2>
+  <p className="text-gray-600 max-w-2xl mx-auto mt-4 text-lg">
+    Discover the passion, craftsmanship, and creativity behind Craftyy Housee — 
+    where every gift hamper is made with love and meaning.
+  </p>
+</section>
       {/* ABOUT SECTION */}
       <section id="about" className="px-6 md:px-16 py-20 bg-[#F7F3EB] mt-16 flex flex-col md:flex-row items-center gap-10">
+        
         <img src={ShopImage} alt="About" className="w-full max-w-sm rounded-xl shadow-lg" />
         <div className="flex-1">
           <h3 className="text-3xl font-bold mb-4">Why Choose Craftyy Housee?</h3>
