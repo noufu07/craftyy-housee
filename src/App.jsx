@@ -149,8 +149,9 @@ import React, { useState } from "react";
 
 // Placeholder images (no missing-file errors)
 import Logo from "./assets/images/logo.png"
-import HeroImage from './assets/images/HeroImage.png'
-import ShopImage from './assets/images/shop1.jpg'
+import HeroImage from './assets/images/shopImage.jpg'
+
+import ShopImage from './assets/images/shop1.png'
 // Updated styling for a more attractive & professional look
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -164,7 +165,7 @@ export default function App() {
           <h1 className="text-xl font-bold">Crafty House</h1>
         </div>
         <nav className="hidden md:flex gap-6 font-medium">
-          <a href="#home" className="hover:text-[#A4774D]">Home11</a>
+          <a href="#home" className="hover:text-[#A4774D]">Home</a>
           <a href="#about" className="hover:text-[#A4774D]">About</a>
           <a href="#products" className="hover:text-[#A4774D]">Products</a>
           <a href="#contact" className="hover:text-[#A4774D]">Contact</a>
@@ -203,7 +204,7 @@ export default function App() {
           </button>
         </div>
         <div className="flex-1 flex justify-center">
-          <img src={HeroImage} alt="Hero" className="w-full max-w-md rounded-xl shadow" />
+          <img src={ShopImage} alt="Hero" className="w-full max-w-md rounded-xl shadow" />
         </div>
       </section>
 
@@ -212,7 +213,7 @@ export default function App() {
       {/* ABOUT SECTION */}
       <section id="about" className="px-6 md:px-16 py-20 bg-[#F7F3EB] mt-16 flex flex-col md:flex-row items-center gap-10">
         
-        <img src={ShopImage} alt="About" className="w-full max-w-sm rounded-xl shadow-lg" />
+        <img src={HeroImage} alt="About" className="w-full max-w-sm rounded-xl shadow-lg" />
         <div className="flex-1">
           <h3 className="text-3xl font-bold mb-4">Why Choose Craftyy Housee?</h3>
           <p className="text-gray-700 mb-4">
