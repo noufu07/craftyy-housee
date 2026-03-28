@@ -45,7 +45,7 @@ export default function App() {
       </section>
 
       {/* ABOUT SECTION */}
-      <section
+      {/* <section
         id="about"
         className="px-6 md:px-16 py-20 bg-[#F7F3EB] mt-16 flex flex-col md:flex-row items-center gap-10"
       >
@@ -69,7 +69,58 @@ export default function App() {
             <li>Fast delivery options</li>
           </ul>
         </div>
-      </section>
+      </section> */}
+
+<section
+  id="services"
+  className="px-6 md:px-16 py-20 bg-[#F7F3EB] mt-16"
+>
+  {/* MOBILE HEADING (top) */}
+  <h3 className="text-3xl font-bold mb-6 text-center md:hidden">
+    Services We Provide
+  </h3>
+
+  <div className="flex flex-col md:flex-row items-center gap-10">
+    
+    {/* IMAGE */}
+    <img
+      src={HeroImage}
+      alt="Services"
+      className="w-full max-w-sm rounded-xl shadow-lg"
+    />
+
+    {/* RIGHT CONTENT */}
+    <div className="flex-1">
+      
+      {/* DESKTOP HEADING */}
+      <h3 className="text-3xl font-bold mb-4 hidden md:block">
+        Services We Provide
+      </h3>
+
+      <p className="text-gray-700 mb-6">
+        We create unique and memorable experiences with our wide range of creative services.
+      </p>
+
+      <div className="grid sm:grid-cols-2 gap-4">
+        {[
+          "Custom Gift Hampers 🎁",
+          "Hamper Materials ✂️",
+          "Cakes & Treats 🎂",
+          "Invitation Cards 💌",
+          "Surprise Videos 🎥",
+          "Event & Corporate Gifting 🎉",
+        ].map((service, index) => (
+          <div
+            key={index}
+            className="bg-white p-4 rounded-lg shadow hover:shadow-md hover:-translate-y-1 transition"
+          >
+            {service}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* CRAFT SUPPLIES SECTION */}
       <section id="supplies" className="px-6 md:px-16 py-20">
