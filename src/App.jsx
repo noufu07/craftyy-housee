@@ -164,7 +164,7 @@ export default function App() {
           <h1 className="text-xl font-bold">Crafty House</h1>
         </div>
         <nav className="hidden md:flex gap-6 font-medium">
-          <a href="#home" className="hover:text-[#A4774D]">Home</a>
+          <a href="#home" className="hover:text-[#A4774D]">Home11</a>
           <a href="#about" className="hover:text-[#A4774D]">About</a>
           <a href="#products" className="hover:text-[#A4774D]">Products</a>
           <a href="#contact" className="hover:text-[#A4774D]">Contact</a>
